@@ -6,6 +6,23 @@ The Movie App is a Flutter application that allows users to browse and search fo
 It uses the Bloc library for state management and follows the clean architecture principles,
 dividing the app into three layers: domain, data, and presentation.
 
+
+## Screenshots
+
+<p align="center">
+  <img src="https://github.com/mohamedhany7420/movie-app/blob/e4be6865f83e14bd26d8faa1420e65e367b02d15/photo_2025-01-30_09-28-06.jpg" alt="Screenshot 1" width="100"/>
+  <img src="https://github.com/mohamedhany7420/movie-app/blob/e4be6865f83e14bd26d8faa1420e65e367b02d15/photo_2025-01-30_09-28-07.jpg" alt="Screenshot 2" width="100"/>
+  <img src="https://github.com/mohamedhany7420/movie-app/blob/e4be6865f83e14bd26d8faa1420e65e367b02d15/photo_2025-01-30_09-28-17.jpg" alt="Screenshot 1" width="100"/>
+  <img src="https://github.com/mohamedhany7420/movie-app/blob/e4be6865f83e14bd26d8faa1420e65e367b02d15/photo_2025-01-30_09-28-18.jpg" alt="Screenshot 2" width="100"/>
+  <img src="https://github.com/mohamedhany7420/movie-app/blob/e4be6865f83e14bd26d8faa1420e65e367b02d15/photo_2025-01-30_09-28-39.jpg" alt="Screenshot 1" width="100"/>
+  <img src="https://github.com/mohamedhany7420/movie-app/blob/e4be6865f83e14bd26d8faa1420e65e367b02d15/photo_2025-01-30_09-28-48.jpg" alt="Screenshot 2" width="100"/>
+  <img src="https://github.com/mohamedhany7420/movie-app/blob/e4be6865f83e14bd26d8faa1420e65e367b02d15/photo_2025-01-30_09-28-50.jpg" alt="Screenshot 1" width="100"/>
+  <img src="https://github.com/mohamedhany7420/movie-app/blob/e4be6865f83e14bd26d8faa1420e65e367b02d15/photo_2025-01-30_09-28-52.jpg" alt="Screenshot 2" width="100"/>
+  <img src="https://github.com/mohamedhany7420/movie-app/blob/e4be6865f83e14bd26d8faa1420e65e367b02d15/photo_2025-01-30_09-28-57.jpg" alt="Screenshot 1" width="100"/>
+  <img src="https://github.com/mohamedhany7420/movie-app/blob/e4be6865f83e14bd26d8faa1420e65e367b02d15/photo_2025-01-30_09-28-04.jpg" alt="Screenshot 2" width="100"/>
+
+</p>
+
 ## Features
 
 - Browse now playing movies
