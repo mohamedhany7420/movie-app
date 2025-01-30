@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       routerConfig: AppRouter.router,
       debugShowCheckedModeBanner: false,
       theme:
-      ThemeData.dark().copyWith(scaffoldBackgroundColor: const Color(0xff1E1E29)),
+      ThemeData.dark().copyWith(scaffoldBackgroundColor: Colors.black),
     )
     );
   }

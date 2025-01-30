@@ -24,7 +24,7 @@ class NowPlayingComponent extends StatelessWidget {
             duration: const Duration(milliseconds: 500),
             child: CarouselSlider(
               options: CarouselOptions(
-                height: 250.0,
+                height: MediaQuery.of(context).size.height * 0.5,
                 viewportFraction: 1.0,
                 onPageChanged: (index, reason) {},
               ),
@@ -36,7 +36,6 @@ class NowPlayingComponent extends StatelessWidget {
                           '/movieDetails',
                           extra: item.id
                       );
-                      print(item.id);
                     },
                     child: Stack(
                       children: [
@@ -59,7 +58,7 @@ class NowPlayingComponent extends StatelessWidget {
                           },
                           blendMode: BlendMode.dstIn,
                           child: CachedNetworkImage(
-                            height: 400,
+                            height: MediaQuery.of(context).size.height * 0.5,
                             imageUrl: ApiConstants.imageUrl(item.backdropPath),
                             fit: BoxFit.cover,
                             placeholder: (context, url) =>

@@ -11,6 +11,7 @@ class PopularView extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.transparent,
           title: const Text(
               'Popular Movies',
             style: TextStyle(

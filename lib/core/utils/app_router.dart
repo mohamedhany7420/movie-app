@@ -7,6 +7,7 @@ import 'package:movies_app/modules/movies/presentation/controller/movie_details_
 import 'package:movies_app/modules/movies/presentation/views/movie_details_view.dart';
 import 'package:movies_app/modules/movies/presentation/views/popular_view.dart';
 import 'package:movies_app/modules/movies/presentation/views/top_rated_view.dart';
+import 'package:movies_app/modules/splash/presentation/splash_view.dart';
 
 import '../../modules/movies/presentation/views/movies_view.dart';
 
@@ -16,6 +17,12 @@ abstract class AppRouter{
       routes: [
         GoRoute(
           path: '/',
+          builder: (BuildContext context, GoRouterState state) {
+            return const SplashView();
+          },
+        ),
+        GoRoute(
+          path: '/movieView',
           builder: (BuildContext context, GoRouterState state) {
             return const MovieView();
           },

@@ -11,6 +11,7 @@ class TopRatedView extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.transparent,
           title: const Text(
               'Top Rated Movies',
             style: TextStyle(
