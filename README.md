@@ -95,3 +95,7 @@ The app follows the SOLID principles to ensure a clean and maintainable codebase
 
 ## Clean Architecture with Bloc as State Management
 
+<p align="center">
+  <img src="https://github.com/mohamedhany7420/movie-app/blob/62035ae7030cfc94b12b244aa42b6f1d04da409b/Flutter%20Clean%20Architecture%20(10).png" alt="Screenshot 1" width="90"/>
+  <img src="https://github.com/mohamedhany7420/movie-app/blob/62035ae7030cfc94b12b244aa42b6f1d04da409b/Flutter%20Clean%20Architecture%20(12).png" alt="Screenshot 1" width="90"/>
+  </p>
