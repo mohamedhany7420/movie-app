@@ -89,9 +89,9 @@ The app uses the following packages:
 
 The app follows the SOLID principles to ensure a clean and maintainable codebase:
 
-- **Single Responsibility Principle (SRP)**: Each class has a single responsibility, making the code easier to understand and maintain.
-- **Open/Closed Principle (OCP)**: Classes are open for extension but closed for modification, allowing new functionality to be added without changing existing code.
-- **Dependency Inversion Principle (DIP)**: High-level modules should not depend on low-level modules, both should depend on abstractions.This principle is achieved using dependency injection.
+- **Single Responsibility Principle (SRP)**
+- **Open/Closed Principle (OCP)**
+- **Dependency Inversion Principle (DIP)**
 
 ## Clean Architecture with Bloc as State Management
 
